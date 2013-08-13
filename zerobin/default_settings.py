@@ -55,16 +55,12 @@ GROUP = None
 # Display a tiny counter for pastes created.
 # Be carreful if your site have to many pastes this can hurt your hard drive performances.
 # Refresh counter interval. Default to every minute after a paste.
-DISPLAY_COUNTER = True
+DISPLAY_COUNTER = False
 REFRESH_COUNTER = 60 * 1
 
 # Names/links to insert in the menu bar.
 # Any link with "mailto:" will be escaped to prevent spam
 MENU = (
-    ('Home', '/'), # internal link. First link will be highlited
-    ('Download 0bin', 'https://github.com/sametmax/0bin'), # external link
-    ('Faq', '/faq/'), # faq
-    ('Contact', 'mailto:your@email.com') # email
 )
 
 # limit size of pasted text in bytes. Be careful allowing too much size can

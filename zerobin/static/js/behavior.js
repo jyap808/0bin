@@ -706,11 +706,6 @@
             prettyPrint();
           } else {
             if (content.indexOf('data:image') != 0) {
-              zerobin.message('info',
-                "The paste did not seem to be code, so it " +
-                "was not colorized. " +
-                "<a id='force-coloration' href='#'>Force coloration</a>",
-                '', false, reposition);
             }
           }
 

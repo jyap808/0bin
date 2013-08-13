@@ -2,7 +2,6 @@
   %if keep_alive:
     <p class="alert alert-info">
       <a class="close" data-dismiss="alert" href="#">×</a>
-      <strong class="title">Ok!</strong>
       <span class="message">
         This paste will be deleted the next time it is read.
       </span>
@@ -22,9 +21,7 @@
 <div class="well paste-form">
 <form action="/" method="get" accept-charset="utf-8">
 <p class="lnk-option">
-  <a id="clip-button" href="#">Copy To Clipboard</a> |
-  <a id="short-url" href="#">Get short url</a> |
-  <a id="email-link" href="#">Email this</a>
+  <a id="clip-button" href="#">Copy To Clipboard</a> 
 
   <span class="paste-option btn-group top">
       <button class="btn btn-clone"><i class="icon-camera"></i>&nbsp;Clone</button>
@@ -63,8 +60,8 @@
     <p class="paste-option">
     <label for="expiration" >Expiration:</label>
       <select id="expiration" name="expiration">
-        <option value="burn_after_reading">Burn after reading</option>
-        <option selected value="1_day">1 day</option>
+        <option selected value="burn_after_reading">Burn after reading</option>
+        <option value="1_day">1 day</option>
         <option value="1_month">1 month</option>
         <option value="never">Never</option>
       </select>

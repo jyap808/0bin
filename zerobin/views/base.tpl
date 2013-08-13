@@ -51,7 +51,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/"><span>ø</span>bin<em>.net</em></a>
+          <a class="brand" href="/"><span>ø</span>bin</a>
           <div class="nav-collapse">
             <ul class="nav">
 
@@ -74,10 +74,6 @@
               %end
 
             </ul>
-            <p class="about pull-right">
-              "A client side encrypted PasteBin"<br>
-              <span>All pastes are AES256 encrypted, we cannot know what you paste...</span>
-            </p>
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -123,11 +119,6 @@
       <hr>
 
       <footer>
-       <blockquote>
-        <p>“Few persons can be made to believe that it is not quite an easy thing to invent a method of secret writing which shall baffle investigation. Yet it may be roundly asserted that human ingenuity cannot concoct a cipher which human ingenuity cannot resolve...”</p>
-        <small>Edgar Allan Poe</small>
-      </blockquote>
-
 
       %if settings.DISPLAY_COUNTER:
         <h4 id="pixels-total" >
@@ -136,13 +127,6 @@
         </h4>
       %end
 
-
-      </br>
-        <p class="greetings span12">
-            Based on an original idea from
-           <a href="http://sebsauvage.net/paste/">sebsauvage.net</a><br>
-           <a href="http://sametmax.com">Sam &amp; Max</a>
-       </p>
       </footer>
 
       %if settings.COMPRESSED_STATIC_FILES:
