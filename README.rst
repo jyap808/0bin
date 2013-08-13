@@ -1,3 +1,11 @@
+This fork cleans things up to make them more generic and has the following changes:
+
+* Disable DISPLAY_COUNTER by default.
+* Remove extra header links.
+* Remove extra link options.
+* Remove extra layout details.
+* Set Burn after reading as default option.
+
 0bin
 ====
 
